@@ -5,8 +5,9 @@ puts "#{i + 1}. #{dwarf}"
 end 
 end
 
-def summon_captain_planet()
+def summon_captain_planet(object)
   # Your code here
+  object.collect { |wow| 
 end
 
 def long_planeteer_calls# code an argument here
