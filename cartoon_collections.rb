@@ -12,6 +12,7 @@ end
 
 def long_planeteer_calls(array)
   # Your code here
+  array.any
 end
 
 def find_the_cheese# code an argument here
