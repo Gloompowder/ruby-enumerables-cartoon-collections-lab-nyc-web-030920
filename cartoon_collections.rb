@@ -1,6 +1,6 @@
 def roll_call_dwarves# code an argument here(dwarves)
   # Your code here
-  dwarves.split(" ").collect {|w| 
+  dwarves.split(" ").collect.with {|w| 
   sentence.split(" ").collect {|w| w.reverse}.join(" ")
 end
 
