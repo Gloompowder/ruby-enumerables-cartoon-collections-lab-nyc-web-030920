@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   # Your code here
-dwarves.each do |dwarf| 
+dwarves.each.wi do |dwarf| 
 
 end
 
