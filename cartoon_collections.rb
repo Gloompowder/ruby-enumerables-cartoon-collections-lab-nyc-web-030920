@@ -1,4 +1,4 @@
-def roll_call_dwarves# code an argument here(dwarves)
+def roll_call_dwarves(dwarves)
   # Your code here
   dwarves.split( ).collect!.with_index {|w, i| "#{(i + 1)}. #{w}" }
 end
