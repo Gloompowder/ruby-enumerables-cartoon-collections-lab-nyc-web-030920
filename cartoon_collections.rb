@@ -21,7 +21,8 @@ else
 end
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array.find { |x| x == cheese_types[0] || x == cheese_types[1] || x == cheese_types[2] }
 end
